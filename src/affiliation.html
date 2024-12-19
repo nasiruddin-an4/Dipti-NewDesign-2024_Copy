@@ -1,0 +1,796 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipti NewDesign - 2024</title>
+    <link rel="stylesheet" href="/css/tiny-slider.css">
+    <link rel="stylesheet" href="/css/sweetalert2.min.css">
+    <link rel="stylesheet" href="/Animation/animate.css">
+    <link rel="stylesheet" href="/dist/output.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="/output.css" rel="stylesheet">
+    <style>
+        body.swal2-shown>[aria-hidden="true"] {
+            transition: 0.1s filter;
+            filter: blur(10px);
+        }
+
+        div:where(.swal2-container) button:where(.swal2-close):focus {
+            outline: none;
+            box-shadow: none;
+        }
+    </style>
+    <!-- ==== WOW JS ==== -->
+    <script src="Animation/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+
+<body>
+
+    <!-- Navbar Start  -->
+    <section class="bg-white shadow-md">
+        <nav class="w-full bg-white shadow-md lg:bg-transparent z-999999 lg:z-auto lg:pb-0 py-2 lg:py-0 lg:shadow-none">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-0 ">
+                <div class="flex items-center py-2 lg:py-5">
+                    <!-- Logo -->
+                    <div class="lg:w-15p w-56">
+                        <a href="/index.html">
+                            <img src="/images/dipti-logo.png" alt="dipti-logo" class="inline-block w-70" />
+                        </a>
+                    </div>
+
+                    <!-- Desktop Menu - Centered -->
+                    <div class="hidden md:flex flex-1 justify-center z-999999">
+                        <a href="./about.html"
+                            class="relative text-gray-600 px-3 py-1 rounded-md flex items-center justify-center">
+                            About Us
+                        </a>
+                        <div class="relative group">
+                            <div
+                                class="text-gray-600 group-hover:text-gray-900 px-3 py-2 rounded-md flex items-center cursor-pointer">
+                                Courses <i
+                                    class="ri-arrow-down-s-line ml-2 transform transition-transform duration-200 group-hover:rotate-180"></i>
+                            </div>
+
+                            <div
+                                class="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg z-20 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
+                                <div class="py-1">
+                                    <a href="AllCourses.html"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 flex items-center">
+                                        <i class="ri-calendar-line mr-2"></i>
+                                        All Courses
+                                    </a>
+                                    <a href="FreeCourses.html"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 flex items-center">
+                                        <i class="ri-archive-line mr-2"></i>
+                                        Free Courses
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relative group">
+                            <div
+                                class="text-gray-600 group-hover:text-gray-900 px-3 py-2 rounded-md flex items-center cursor-pointer">
+                                Training <i
+                                    class="ri-arrow-down-s-line ml-2 transform transition-transform duration-200 group-hover:rotate-180"></i>
+                            </div>
+
+                            <div
+                                class="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg z-20 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
+                                <div class="py-1">
+                                    <a href="Training.html"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 flex items-center">
+                                        <i class="ri-book-line mr-2"></i>
+                                        Training
+                                    </a>
+                                    <a href="Programs.html"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 flex items-center">
+                                        <i class="ri-graduation-cap-line mr-2"></i>
+                                        Programs
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relative group">
+                            <div
+                                class="text-gray-600 group-hover:text-gray-900 px-3 py-2 rounded-md flex items-center cursor-pointer">
+                                Academic <i
+                                    class="ri-arrow-down-s-line ml-2 transform transition-transform duration-200 group-hover:rotate-180"></i>
+                            </div>
+
+                            <div
+                                class="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg z-20 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
+                                <div class="py-1">
+                                    <a href="Campus.html"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 flex items-center">
+                                        <i class="ri-building-line mr-2"></i>
+                                        Campus Life
+                                    </a>
+                                    <a href="Community"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 flex items-center">
+                                        <i class="ri-group-line mr-2"></i>
+                                        Community
+                                    </a>
+                                    
+                                    <a href="/src/administration.html"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 flex items-center">
+                                        <i class="ri-group-line mr-2"></i>
+                                        Administration
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relative group">
+                            <div
+                                class="text-gray-600 group-hover:text-gray-900 px-3 py-2 rounded-md flex items-center cursor-pointer">
+                                Successs Stories <i
+                                    class="ri-arrow-down-s-line ml-2 transform transition-transform duration-200 group-hover:rotate-180"></i>
+                            </div>
+
+                            <div
+                                class="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg z-20 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
+                                <div class="py-1">
+                                    <a href="#"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 flex items-center">
+                                        <i class="ri-image-line mr-2"></i>
+                                        Gallery
+                                    </a>
+                                    <a href="#"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 flex items-center">
+                                        <i class="ri-video-line mr-2"></i>
+                                        Videos
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Desktop Online Admission -->
+                    <div class="hidden md:block relative z-999999">
+                        <a href="Online Admission.html"
+                            class="font-pop text-base font-normal flex items-center gap-2.5 hover:text-tertiary-orange transition-all duration-150 z-10">
+                            <span class="bg-primary-dark-blue  w-30 h-30 rounded-full flex justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19.258" height="17.285"
+                                    viewBox="0 0 19.258 17.285">
+                                    <path id="Path_3" data-name="Path 3"
+                                        d="M15.129,18.143l9.129-5.072L15.129,8,6,13.072Zm0,0,6.248-3.469a12.254,12.254,0,0,1,.675,6.568,12.138,12.138,0,0,0-6.923,3.043,12.138,12.138,0,0,0-6.923-3.043,12.254,12.254,0,0,1,.675-6.568Zm-4.057,6.086V16.622l4.057-2.252"
+                                        transform="translate(-5.5 -7.5)" fill="none" stroke="#fff"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+                                </svg>
+                            </span>
+                            Online Admission</a>
+                    </div>
+
+                    <!-- Mobile Search and Menu -->
+                    <div class="md:hidden flex flex-1 items-center justify-end space-x-4">
+                        <!-- Mobile Search Icon and Collapsible Search Box -->
+                        <div class="relative">
+                            <button id="mobile-search-toggle"
+                                class="text-gray-600 hover:text-gray-900 focus:outline-none">
+                                <i class="ri-search-line text-xl"></i>
+                            </button>
+                            <!-- Mobile Search Box (Hidden by default) -->
+                            <div id="mobile-search-box" class="absolute right-0 top-10 w-60 hidden">
+                                <input type="text" placeholder="Search..."
+                                    class="w-full px-4 py-1 text-gray-600 bg-white rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500 shadow-lg">
+                            </div>
+                        </div>
+                        <button id="mobile-menu-toggle" class="text-gray-600 hover:text-gray-900 focus:outline-none">
+                            <span id="mobile-menu-icon">
+                                <i class="ri-menu-line text-2xl"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu - Slides from Right -->
+                <div id="mobile-menu"
+                    class="md:hidden w-4/5 fixed inset-y-0 right-0 bg-white shadow-lg transform transition-transform duration-300 ease-in-out translate-x-full z-50">
+                    <div class="px-4 pt-4 pb-3 space-y-1">
+                        <div class="flex justify-between items-center mb-4">
+                            <h2 class="text-xl font-bold text-gray-800">Menu</h2>
+                            <button id="mobile-menu-close" class="text-gray-600 hover:text-gray-900">
+                                <i class="ri-close-line text-2xl"></i>
+                            </button>
+                        </div>
+
+                        <a href="about.html"
+                            class="text-gray-600 hover:bg-gray-100 hover:text-gray-900 block px-3 py-2 rounded-md flex items-center">
+                            About Us
+                        </a>
+
+                        <!-- Courses -->
+                        <div class="relative group">
+                            <div
+                                class="text-gray-600 hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md flex items-center justify-between cursor-pointer">
+                                <div class="flex items-center">Courses
+                                </div>
+                                <svg class="transform transition-transform duration-200" width="20" height="20"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M6 9l6 6 6-6" />
+                                </svg>
+                            </div>
+                            <div class="mobile-dropdown hidden">
+                                <a href="AllCourses.html"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ml-4 flex items-center">
+                                    <i class="ri-calendar-line mr-2"></i>
+                                    All Courses
+                                </a>
+                                <a href="FreeCourses.html"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ml-4 flex items-center">
+                                    <i class="ri-archive-line mr-2"></i>
+                                    Free Courses
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Training -->
+                        <div class="relative group">
+                            <div
+                                class="text-gray-600 hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md flex items-center justify-between cursor-pointer">
+                                <div class="flex items-center">
+                                    Training
+                                </div>
+                                <svg class="transform transition-transform duration-200" width="20" height="20"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M6 9l6 6 6-6" />
+                                </svg>
+                            </div>
+                            <div class="mobile-dropdown hidden">
+                                <a href="Training.html"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ml-4 flex items-center">
+                                    <i class="ri-book-line mr-2"></i>
+                                    Courses
+                                </a>
+                                <a href="#"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ml-4 flex items-center">
+                                    <i class="ri-graduation-cap-line mr-2"></i>
+                                    Programs
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Academic -->
+                        <div class="relative group">
+                            <div
+                                class="text-gray-600 hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md flex items-center justify-between cursor-pointer">
+                                <div class="flex items-center">
+                                    Academic
+                                </div>
+                                <svg class="transform transition-transform duration-200" width="20" height="20"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M6 9l6 6 6-6" />
+                                </svg>
+                            </div>
+                            <div class="mobile-dropdown hidden">
+                                <a href="Campus.html"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ml-4 flex items-center">
+                                    <i class="ri-building-line mr-2"></i>
+                                    Campus Life
+                                </a>
+                                <a href="Community.html"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ml-4 flex items-center">
+                                    <i class="ri-group-line mr-2"></i>
+                                    Community
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Successs Stories -->
+                        <div class="relative group">
+                            <div
+                                class="text-gray-600 hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md flex items-center justify-between cursor-pointer">
+                                <div class="flex items-center">
+                                    Successs Stories
+                                </div>
+                                <svg class="transform transition-transform duration-200" width="20" height="20"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M6 9l6 6 6-6" />
+                                </svg>
+                            </div>
+                            <div class="mobile-dropdown hidden">
+                                <a href="#"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ml-4 flex items-center">
+                                    <i class="ri-image-line mr-2"></i>
+                                    Gallery
+                                </a>
+                                <a href="#"
+                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ml-4 flex items-center">
+                                    <i class="ri-video-line mr-2"></i>
+                                    Videos
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#"
+                            class="text-gray-600 hover:bg-gray-100 hover:text-gray-900 block px-3 py-2 rounded-md flex items-center">
+                            Online Admission
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Overlay -->
+                <div id="mobile-menu-overlay"
+                    class="fixed inset-0 bg-gray-200 opacity-50 invisible transition-all duration-300 ease-in-out z-40">
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- Navbar Start  End -->
+
+    
+<!-- ------------------ About Section Start ------------------ -->
+  <section class="lg:mt-36 mt-20">
+    <div class="lg:max-w-container mx-auto px-4 md:px-0 lg:px-5 xl:px-0 md:max-w-container-md">
+      <h2 class="font-inter text-2xl lg:text-42 leading-7 lg:leading-72 text-primary-dark-blue text-center mx-auto lg:max-w-5xl font-extrabold">
+        Partners & Affiliation
+      </h2>
+      <div class="lg:mt-16 mt-10">
+        <h2 class="font-inter text-2xl lg:text-38 leading-50 font-bold text-primary-dark-blue text-center mx-auto lg:max-w-4xl">
+          Corporate Partners
+        </h2>
+        <p class="mt-8 lg:mt-12 font-pop font-normal text-sm leading-22 text-primary-dark-blue text-justify">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+      </div>
+    </div>
+  </section>
+  <!-- ------------------ About Section End ------------------ -->
+
+  <!-- ------------------ Client's Impression section Start ------------------ -->
+  <section class="mt-20">
+    <div class="lg:max-w-container mx-auto px-4 md:px-0 lg:px-5 xl:px-0 md:max-w-container-md">
+      <div class="lg:flex justify-between items-center text-center lg:text-left">
+        <h3 class="font-inter lg:text-4xl text-3xl font-bold leading-50 text-primary-dark-blue">
+          Our Client's Impression
+        </h3>
+      </div>
+
+      <div class="mt-42 w-full mx-4 lg:-mx-4">
+        <div class="clients-impression-slider">
+          <div class="cursor-pointer">
+            <div class="flex gap-110" >
+              <div class="lg:w-768 w-full lg:text-left">
+                <p class="font-pop text-25 font-normal leading-7 text-gray-1">
+                  "Other leadership training is like going to a conference where everyone feels good…then you get home and forget everything. Portage gave us a better framework to work with - each unit built on the next, allowing the team to internalize and put changes into action; changes that are still in place today.”
+                </p>
+
+                <div class="mt-14">
+                  <p class="font-pop text-base font-semibold leading-33 line-clamp-1 text-gray-3">
+                    Jhon Doe
+                  </p>
+                  <p class="font-pop text-xs leading-7 font-normal line-clamp-1 text-tertiary-orange">
+                    Creative Director
+                  </p>
+                </div>
+              </div>
+              <div class="w-278 h-176 hidden lg:block">
+                <img src="../dist/images/success/4.png" alt="client-1" class="" />
+              </div>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <div class="flex gap-110 mt-42" >
+              <div class="lg:w-768 w-full lg:text-left">
+                <p class="font-pop text-25 font-normal leading-7 text-gray-1">
+                  "Other leadership training is like going to a conference where everyone feels good…then you get home and forget everything. Portage gave us a better framework to work with - each unit built on the next, allowing the team to internalize and put changes into action; changes that are still in place today.”
+                </p>
+
+                <div class="mt-14">
+                  <p class="font-pop text-base font-semibold leading-33 line-clamp-1 text-gray-3">
+                    Jhon Doe
+                  </p>
+                  <p class="font-pop text-xs leading-7 font-normal line-clamp-1 text-tertiary-orange">
+                    Creative Director
+                  </p>
+                </div>
+              </div>
+              <div class="w-278 h-176 hidden lg:block">
+                <img src="../dist/images/success/4.png" alt="client-1" class="" />
+              </div>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <div class="flex gap-110 mt-42" >
+              <div class="lg:w-768 w-full lg:text-left">
+                <p class="font-pop text-25 font-normal leading-7 text-gray-1">
+                  "Other leadership training is like going to a conference where everyone feels good…then you get home and forget everything. Portage gave us a better framework to work with - each unit built on the next, allowing the team to internalize and put changes into action; changes that are still in place today.”
+                </p>
+
+                <div class="mt-14">
+                  <p class="font-pop text-base font-semibold leading-33 line-clamp-1 text-gray-3">
+                    Jhon Doe
+                  </p>
+                  <p class="font-pop text-xs leading-7 font-normal line-clamp-1 text-tertiary-orange">
+                    Creative Director
+                  </p>
+                </div>
+              </div>
+              <div class="w-278 h-176 hidden lg:block">
+                <img src="../dist/images/success/4.png" alt="client-1" class="" />
+              </div>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <div class="flex gap-110 mt-42" >
+              <div class="lg:w-768 w-full lg:text-left">
+                <p class="font-pop text-25 font-normal leading-7 text-gray-1">
+                  "Other leadership training is like going to a conference where everyone feels good…then you get home and forget everything. Portage gave us a better framework to work with - each unit built on the next, allowing the team to internalize and put changes into action; changes that are still in place today.”
+                </p>
+
+                <div class="mt-14">
+                  <p class="font-pop text-base font-semibold leading-33 line-clamp-1 text-gray-3">
+                    Jhon Doe
+                  </p>
+                  <p class="font-pop text-xs leading-7 font-normal line-clamp-1 text-tertiary-orange">
+                    Creative Director
+                  </p>
+                </div>
+              </div>
+              <div class="w-278 h-176 hidden lg:block">
+                <img src="../dist/images/success/4.png" alt="client-1" class="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- ------------------ Client's Impression section End ------------------ -->
+  
+
+   <!-- ------------------ Clients Section Start ------------------ -->
+   <section class="lg:mt-36 mt-20">
+    <div class="lg:max-w-container mx-auto lg:flex items-center px-4 md:px-0 lg:px-5 xl:px-0 md:max-w-container-md">
+      
+      <div class="w-full mt-10 lg:mt-0 mx-auto">
+        <div class="affiliation-client-slider">
+          <div class="max-h-170">
+            <img src="../dist/images/clients/army.png" alt="Clients" class="h-auto w-167 block" />
+          </div>
+
+          <div class="max-h-170">
+            <img src="../dist/images/clients/army.png" alt="Clients" class="h-auto w-167 block" />
+          </div>
+
+          <div class="max-h-170">
+            <img src="../dist/images/clients/army.png" alt="Clients" class="h-auto w-167 block" />
+          </div>
+
+          <div class="max-h-170">
+            <img src="../dist/images/clients/army.png" alt="Clients" class="h-auto w-167 block" />
+          </div>
+          <div class="max-h-170">
+            <img src="../dist/images/clients/army.png" alt="Clients" class="h-auto w-167 block" />
+          </div>
+          <div class="max-h-170">
+            <img src="../dist/images/clients/army.png" alt="Clients" class="h-auto w-167 block" />
+          </div>
+          <div class="max-h-170">
+            <img src="../dist/images/clients/army.png" alt="Clients" class="h-auto w-167 block" />
+          </div>
+          <div class="max-h-170">
+            <img src="../dist/images/clients/army.png" alt="Clients" class="h-auto w-167 block" />
+          </div>
+          <div class="max-h-170">
+            <img src="../dist/images/clients/army.png" alt="Clients" class="h-auto w-167 block" />
+          </div>
+          <div class="max-h-170">
+            <img src="../dist/images/clients/army.png" alt="Clients" class="h-auto w-167 block" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ------------------ Clients Section End ------------------ -->
+
+  <!----------------------- Franchise Start ----------------------->
+  <section class="lg:mt-36 mt-20">
+    <div class="lg:max-w-container mx-auto px-4 md:px-0 lg:px-5 xl:px-0 md:max-w-container-md">
+      <div class="">
+        <h2 class="font-inter font-bold text-2xl lg:text-4xl leading-50 text-primary-dark-blue">
+          Join Our Franchise
+        </h2>
+        <div class="mt-10">
+          <p class="font-pop font-normal text-sm leading-22 text-primary-dark-blue text-justify">Daffodil International Professional Training Institute (a concern of Daffodil Computers Ltd.) or DIPTI is a country renowned professional training providing institute. DIPTI was established on June, 2004 with a vision to provide a very wide range of job oriented and professional development training to convert both semiskilled and unskilled people to human resource. DIPTI is also an affiliated institute of Bangladesh Technical Education Board. Beside this DIPTI has links and partnership with University and Industry Alliance, University of Dhaka, IIC Malaysia and CEA UK.</p>
+          <p class="mt-4 font-pop font-normal text-sm leading-22 text-primary-dark-blue text-justify">To make the vision success DIPTI welcomes entrepreneurs to be a proud partner for doing social business so that training can be reached to the doorsteps of the trainees through them. DIPTI developed a very dedicated and expert team to provide support to the partners even from inception of this education/training business to ensure profit with social status. If you are confident enough and decided to start a social business or if you want to shape your existing business with branding image you are requested to contact with us following the procedure mentioned bellow:</p>
+        </div>
+      </div>
+      <div class="mt-20 lg:flex lg:gap-10 xl:gap-85">
+        <div class="lg:w-1/2 mt-10 lg:mt-0">
+          <a href="#">
+            <div class="bg-white group flex gap-3">
+              <div class="h-37 w-37 flex justify-center items-center">
+                <img src="../dist/images/icons/file.png" alt="scholarship" class="lg:h-46 h-10 w-auto block" />
+              </div>
+              <div class="flex justify-center items-center">
+                <h3 class="font-pop font-normal text-xl leading-25 text-primary-dark-blue group-hover:text-tertiary-orange transition duration-200">
+                  Read the defined rules and resolution to be a partner
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="mt-8 bg-white group flex gap-3">
+              <div class="h-37 w-37 flex justify-center items-center">
+                <img src="/images/icons/scholarship.png" alt="scholarship" class="lg:h-46 h-10 w-auto block" />
+              </div>
+              <div class="flex justify-center items-center">
+                <h3 class="font-pop font-normal text-xl leading-25 text-primary-dark-blue group-hover:text-tertiary-orange transition duration-200">
+                  Fill up the form
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="mt-8 bg-white group flex gap-3">
+              <div class="h-37 w-37 flex justify-center items-center">
+                <img src="../dist/images/icons/file.png" alt="scholarship" class="lg:h-46 h-10 w-auto block" />
+              </div>
+              <div class="flex justify-center items-center">
+                <h3 class="font-pop font-normal text-xl leading-25 text-primary-dark-blue group-hover:text-tertiary-orange transition duration-200">
+                  Provide all necessary supporting papers/documents
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="mt-8 bg-white group flex gap-3">
+              <div class="h-37 w-37 flex justify-center items-center">
+                <img src="../dist/images/icons/file.png" alt="scholarship" class="lg:h-46 h-10 w-auto block" />
+              </div>
+              <div class="flex justify-center items-center">
+                <h3 class="font-pop font-normal text-xl leading-25 text-primary-dark-blue group-hover:text-tertiary-orange transition duration-200">
+                  Finally submit the form
+                </h3>
+              </div>
+            </div>
+          </a>
+         
+          <a href="#" class="download-btn inline-block mt-10">
+            <h6 class="font-pop font-normal text-xs text-white inline-block" >Download Form</h6>
+            <span class="pl-1">
+              <svg class="w-4 h-4 text-tertiary-orange inline-block" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 15v2a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-2m-8 1V4m0 12-4-4m4 4 4-4"/>
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        <div class="lg:w-1/2 flex items-center justify-center lg:justify-end">
+          <img src="../dist/images/mask-group.png" alt="Image" class="block object-cover" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!----------------------- Franchise Start ----------------------->
+
+
+
+    <!-- ------------------ Footer Start ------------------ -->
+    <footer class="mt-100 lg:mt-200">
+        <a href="javascript:" id="return-to-top"
+            class="h-10 w-10 rounded-full bg-light-blue fixed z-999999 flex items-center justify-center right-5 bottom-5 transition-all ease-in-out duration-200 hover:bg-tertiary-orange">
+            <i class="ri-arrow-up-s-line text-black text-3xl"></i>
+        </a>
+
+        <div class="max-w-container mx-auto px-4 lg:px-5 xl:px-0">
+            <div class="md:flex md:flex-wrap lg:flex-nowrap mb-82">
+                <div class="md:w-1/2 lg:w-1/3 w-full text-center sm:text-left lg:text-left mb-16 lg:mb-0">
+                    <div class="w-82 mx-auto lg:ml-0">
+                        <img src="../dist/images/dipti-orginal-logo.png" alt="dipti" class="w-full block" />
+                    </div>
+
+                    <h6
+                        class="lg:w-189 font-inter text-base font-medium text-secondary-dark-blue mt-12 text-center lg:text-left">
+                        Daffodil International Professional Training Institute (DIPTI)
+                    </h6>
+
+                    <div class="mt-12 flex justify-center lg:justify-start md:gap-5 lg:gap-18 gap-10">
+                        <a href="#"
+                            class="w-8 h-8 bg-light-sky rounded-full flex justify-center items-center hover:bg-blue-200 transition duration-150">
+                            <span class="fb-svg"></span>
+                        </a>
+
+                        <a href="#"
+                            class="w-8 h-8 bg-light-sky rounded-full flex justify-center items-center hover:bg-blue-200 transition duration-150">
+                            <span class="tw-svg"></span>
+                        </a>
+
+                        <a href="#"
+                            class="w-8 h-8 bg-light-sky rounded-full flex justify-center items-center hover:bg-blue-200 transition duration-150">
+                            <span class="li-svg"></span>
+                        </a>
+
+                        <a href="#"
+                            class="w-8 h-8 bg-light-sky rounded-full flex justify-center items-center hover:bg-blue-200 transition duration-150">
+                            <span class="yt-svg"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 lg:w-1/3 w-full text-center lg:text-left lg:ml-32">
+                    <p class="font-inter text-base tracking-wide font-medium text-[#8B8B8B]">
+                        Important Links
+                    </p>
+
+                    <ul class="mt-9">
+                        <li class="mt-5">
+                            <a href="#"
+                                class="font-pop text-sm font-normal text-gray-3 hover:text-tertiary-orange transition duration-150">Training
+                                Programs</a>
+                        </li>
+                        <li class="mt-5">
+                            <a href="#"
+                                class="font-pop text-sm font-normal text-gray-3 hover:text-tertiary-orange transition duration-150">Corporate
+                                partners</a>
+                        </li>
+                        <li class="mt-5">
+                            <a href="#"
+                                class="font-pop text-sm font-normal text-gray-3 hover:text-tertiary-orange transition duration-150">Affiliation</a>
+                        </li>
+                        <li class="mt-5">
+                            <a href="#"
+                                class="font-pop text-sm font-normal text-gray-3 hover:text-tertiary-orange transition duration-150">CSR</a>
+                        </li>
+                        <li class="mt-5">
+                            <a href="#"
+                                class="font-pop text-sm font-normal text-gray-3 hover:text-tertiary-orange transition duration-150">Job
+                                Facilities</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2 lg:w-1/3 w-full text-center lg:text-left lg:ml-32">
+                    <p class="font-inter text-base tracking-wide font-medium text-[#8B8B8B] hidden md:block">
+                        Important Links
+                    </p>
+
+                    <ul class="mt-9">
+                        <li class="mt-5">
+                            <a href="#"
+                                class="font-pop text-sm font-normal text-gray-3 hover:text-tertiary-orange transition duration-150">Class
+                                Routine</a>
+                        </li>
+                        <li class="mt-5">
+                            <a href="#"
+                                class="font-pop text-sm font-normal text-gray-3 hover:text-tertiary-orange transition duration-150">Notice
+                                board</a>
+                        </li>
+                        <li class="mt-5">
+                            <a href="#"
+                                class="font-pop text-sm font-normal text-gray-3 hover:text-tertiary-orange transition duration-150">Results
+                                board</a>
+                        </li>
+                        <li class="mt-5">
+                            <a href="#"
+                                class="font-pop text-sm font-normal text-gray-3 hover:text-tertiary-orange transition duration-150">Best
+                                students of the year</a>
+                        </li>
+                        <li class="mt-5">
+                            <a href="#"
+                                class="font-pop text-sm font-normal text-gray-3 hover:text-tertiary-orange transition duration-150">Best
+                                teachers of the year</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2 lg:w-1/3 w-full text-center lg:text-left lg:ml-32">
+                    <p class="font-inter text-base tracking-wide font-medium text-[#8B8B8B] hidden md:block">
+                        Important Links
+                    </p>
+
+                    <ul class="mt-9">
+                        <li class="mt-5">
+                            <a href="#"
+                                class="font-pop text-sm font-normal text-gray-3 hover:text-tertiary-orange transition duration-150">Meet
+                                teacher’s</a>
+                        </li>
+                        <li class="mt-5">
+                            <a href="#"
+                                class="font-pop text-sm font-normal text-gray-3 hover:text-tertiary-orange transition duration-150">Administration</a>
+                        </li>
+                        <li class="mt-5">
+                            <a href="#"
+                                class="font-pop text-sm font-normal text-gray-3 hover:text-tertiary-orange transition duration-150">Students
+                                portal</a>
+                        </li>
+                        <li class="mt-5">
+                            <a href="#"
+                                class="font-pop text-sm font-normal text-gray-3 hover:text-tertiary-orange transition duration-150">Skill
+                                Assessment</a>
+                        </li>
+                        <li class="mt-5">
+                            <a href="#"
+                                class="font-pop text-sm font-normal text-gray-3 hover:text-tertiary-orange transition duration-150">Notes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-light-sky">
+            <div class="max-w-container mx-auto px-4 lg:px-0">
+                <div class="md:flex py-69">
+                    <div class="md:w-1/3 flex flex-col items-center mb-10 lg:mb-0">
+                        <p class="w-35 h-35 rounded-full bg-secondary-dark-blue flex justify-center items-center">
+                            <span class="lo-svg"></span>
+                        </p>
+
+                        <p
+                            class="text-center w-255 mt-8 font-pop text-sm font-normal text-secondary-dark-blue leading-relaxed">
+                            Daffodil Plaza, 4/2, Sobhanbag, Mirpur Road, Dhaka-1207
+                        </p>
+                    </div>
+
+                    <div class="md:w-1/3 flex flex-col items-center mb-10 lg:mb-0">
+                        <p class="w-35 h-35 rounded-full bg-secondary-dark-blue flex justify-center items-center">
+                            <span class="ph-svg"></span>
+                        </p>
+
+                        <p
+                            class="text-center w-255 mt-8 font-pop text-sm font-normal text-secondary-dark-blue leading-relaxed">
+                            01713-493233, 01713-493288, 01713-493267
+                        </p>
+                    </div>
+
+                    <div class="md:w-1/3 flex flex-col items-center mb-10 lg:mb-0">
+                        <p class="w-35 h-35 rounded-full bg-secondary-dark-blue flex justify-center items-center">
+                            <span class="em-svg"></span>
+                        </p>
+
+                        <p
+                            class="text-center w-255 mt-8 font-pop text-sm font-normal text-secondary-dark-blue leading-relaxed">
+                            info@dipti.com.bd
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-[#1C1C1C] px-4 lg:px-0 md:px-20">
+            <p class="text-center font-pop text-[#8B8B8B] text-sm tracking-wide py-7">
+                Copyright © 2004-2023 Daffodil International Professional Training
+                Institute (DIPTI). All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+    <!-- ------------------ Footer End ------------------ -->
+
+
+    <script>
+        // ===== Return to Top ====
+        // Detect scroll events
+        window.addEventListener("scroll", function () {
+            var returnToTopButton = document.getElementById("return-to-top");
+
+            // If page is scrolled more than 500px, fade in the button
+            if (window.scrollY >= 800) {
+                returnToTopButton.style.opacity = "1";
+            } else {
+                // Else fade out the button
+                returnToTopButton.style.opacity = "0";
+            }
+        });
+
+        // Handle click event on the return-to-top button
+        document
+            .getElementById("return-to-top")
+            .addEventListener("click", function () {
+                // Scroll to the top of the page
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth", // Smooth scroll animation
+                });
+            });
+    </script>
+
+    <script src="/main.js" defer></script>
+    <script src="/js/tiny-slider.js"></script>
+    <script src="/js/sweetalert2.min.js"></script>
+    <script src="/js/svg.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
